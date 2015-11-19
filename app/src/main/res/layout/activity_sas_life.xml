@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_us_bg">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/home"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/about"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn1"
+            android:layout_toEndOf="@+id/btn1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/imageView11"
+            android:src="@drawable/sas_life"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn2"
+            android:layout_toEndOf="@+id/btn2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/imageView12"
+            android:src="@drawable/ministry1"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn3"
+            android:layout_toEndOf="@+id/btn3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout1"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="20"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView13"
+                android:src="@drawable/handbook"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:adjustViewBounds="false"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView15"
+                android:layout_weight="1"
+                android:src="@drawable/school_id"
+                android:paddingTop="5dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView14"
+                android:src="@drawable/venue_reservation"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/linearlayout3"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/SASHymn"
+                android:id="@+id/textView5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:background="@color/andrean_red"
+                android:textColor="@color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/hymn"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:background="@color/andrean_red"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:ellipsize="marquee" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_weight=".1">
+    </com.google.android.gms.ads.AdView-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="15">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainScrollView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/clubButton"
+                    android:src="@drawable/club"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/philosophy" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+</LinearLayout>
