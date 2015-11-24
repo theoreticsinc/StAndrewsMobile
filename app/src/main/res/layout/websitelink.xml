@@ -5,7 +5,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@drawable/homepage2"
     android:foregroundGravity="center_vertical|center_horizontal"
-    tools:context="com.theoreticsinc.standrewsmobile.activities.DetailsActivity">
+    tools:context="com.theoreticsinc.schoolapp.activities.DetailsActivity">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="45dp"

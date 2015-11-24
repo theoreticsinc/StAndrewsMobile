@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/details"
-    tools:context="com.theoreticsinc.standrewsmobile.fragments.DashboardFragment">
+    tools:context="com.theoreticsinc.schoolapp.fragments.DashboardFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"

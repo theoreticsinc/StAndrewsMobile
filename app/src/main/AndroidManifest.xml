@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.theoreticsinc.standrewsmobile"
+    package="com.theoreticsinc.schoolapp"
     android:installLocation="preferExternal" >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,13 +14,13 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.theoreticsinc.standrewsmobile.permission.C2D_MESSAGE"
+        android:name="com.theoreticsinc.schoolapp.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.theoreticsinc.standrewsmobile.permission.C2D_MESSAGE" />
 
     <application
-        android:name=".StarterApplication"
+        android:name="com.theoreticsinc.schoolapp.StarterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name" >
@@ -39,7 +39,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".activities.SplashScreenActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.SplashScreenActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme" >
@@ -50,48 +50,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.DashboardActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.DashboardActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.AlertsListActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.AlertsListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.DrawerActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.DrawerActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.DetailsActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.DetailsActivity"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.AboutActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.AboutActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.SASLifeActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.SASLifeActivity"
             android:label="@string/title_activity_sas_life"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.NotificationReceiverActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.NotificationReceiverActivity"
             android:label="@string/app_name" >
         </activity>
         <!-- Include the AdActivity configChanges and theme. -->
@@ -103,7 +103,7 @@
         <service android:name="com.parse.PushService" />
 
         <receiver
-            android:name=".utils.MyReceiver"
+            android:name="com.theoreticsinc.schoolapp.utils.MyReceiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
@@ -124,49 +124,49 @@
         </receiver>
 
         <activity
-            android:name=".activities.PhilosophyActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.PhilosophyActivity"
             android:label="@string/title_activity_philosophy"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.MinistryActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.MinistryActivity"
             android:label="@string/title_activity_ministry"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.HistoryActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.HistoryActivity"
             android:label="@string/title_activity_history"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name=".activities.PastoralMinistryActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.PastoralMinistryActivity"
             android:label="@string/title_activity_pastoral_ministry" >
         </activity>
         <activity
-            android:name=".activities.SpiritualFormation"
+            android:name="com.theoreticsinc.schoolapp.activities.SpiritualFormation"
             android:label="@string/title_activity_spiritual_formation" >
         </activity>
         <activity
-            android:name=".activities.ClubActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.ClubActivity"
             android:label="@string/title_activity_club" >
         </activity>
         <activity
-            android:name=".activities.SchoolIDActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.SchoolIDActivity"
             android:label="@string/title_activity_school_id" >
         </activity>
         <activity
-            android:name=".activities.HandbookActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.HandbookActivity"
             android:label="@string/title_activity_handbook" >
         </activity>
         <activity
-            android:name=".activities.VenueRegActivity"
+            android:name="com.theoreticsinc.schoolapp.activities.VenueRegActivity"
             android:label="@string/title_activity_venue_reg" >
         </activity>
         <activity
-            android:name=".activities.NotificationActivities"
+            android:name="com.theoreticsinc.schoolapp.activities.NotificationActivities"
             android:label="@string/title_activity_notification_activities" >
         </activity>
     </application>
