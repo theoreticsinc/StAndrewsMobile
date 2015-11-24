@@ -14,7 +14,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageView5"
-            android:src="@drawable/philosophy"
+            android:src="@drawable/handbook_banner"
             android:layout_weight="1"
             android:scaleType="fitXY" />
 
@@ -30,14 +30,21 @@
             android:paddingLeft="5dp" />
     </RelativeLayout>
 
-    <TextView
-        android:text="@string/philosophy"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:padding="10dp"
-        android:textColor="@color/white"
-        android:scrollIndicators="right"
-        android:nestedScrollingEnabled="true" />
+        android:id="@+id/scrollView5"
+        android:layout_weight="1" >
+
+        <TextView
+            android:text="@string/handbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:scrollIndicators="right"
+            android:nestedScrollingEnabled="true" />
+    </ScrollView>
 
 </LinearLayout>

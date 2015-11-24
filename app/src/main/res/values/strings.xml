@@ -28,7 +28,7 @@
     <string name="check">Check</string>
     <string name="title_activity_details">DetailsActivity</string>
     <string name="mission_statement">Mission Statement</string>
-    <string name="mission"><![CDATA[St. Andrew’s School commits itself to the following:
+    <string name="mission"><![CDATA[St. Andrew\'s School commits itself to the following:
         \n1.  Evangelization and Christian formation of the youth
         \n2. Excellence in curricular and co-curricular programs
         \n3. Integral development of the human person
@@ -39,12 +39,224 @@
     <string name="title_activity_sas_life">SAS Life</string>
     <string name="action_settings">Settings</string>
     <string name="SASHymn">SAS Hymn</string>
-    <string name="hymn"><![CDATA[Beloved St. Andrew’s The knowledge we obtain From the Lord God above Through thy guidance and love.
-        \nYou inspire our will To reach our Golden Goal Love God and Country Proudly we proclaim.
-        \nRefrain: Hail St. Andrew\'s Endless fountain of wisdom We do pledge our life of serving love.
-        \nThe bright and shining morning Comes in our life We the Andreans give respect To thy enlightening command.
-        \nWe shall cherish you from here and afar With you the darkest road We’ll walk unafraid.
+    <string name="hymn"><![CDATA[Beloved St. Andrew\'s
+        \nThe knowledge we obtain
+        \nFrom the Lord God above
+        \nThrough thy guidance and love.
+        \n
+        \nYou inspire our will
+        \nTo reach our Golden Goal
+        \nLove God and Country
+        \nProudly we proclaim.
+        \n
+        \nRefrain: Hail St. Andrew\'s
+        \nEndless fountain of wisdom
+        \nWe do pledge our life of serving love.
+        \n
+        \nThe bright and shining morning
+        \nComes in our life
+        \nWe the Andreans give respect
+        \nTo thy enlightening command.
+        \n
+        \nWe shall cherish you
+        \nfrom here and afar
+        \nWith you the darkest road
+        \nWe\'ll walk unafraid.
+        \n
         \n(Repeat Refrain 2x)]]></string>
-    <string name="title_activity_philosophy">PhilosophyActivity</string>
+    <string name="title_activity_philosophy">Philosophy of Education</string>
+    <string name="philosophy"><![CDATA[As a Catholic institution of learning, St. Andrew\'s School believes in the following:
+\n1. Quality and relevant education that
+focuses on the formation and integral development of the whole person: physical, intellectual, affective, socio-cultural and spiritual;
+provides a worldview that relates to the growth experience of the learners;
+fosters excellence in curricular and co-curricular programs and activities; and
+adopts insights and scientific learning in the development of the behavioral sciences and educational technology that cater to the specific needs of the learners according to the different stages of human development.
+\n2. Christian and Missionary formation that is
+committed to the nurturance of the desire for all learners "to go and proclaim the Good News to the ends of the earth" in word and deed;
+guided by the apostle St. Andrew to draw people to Jesus Christ and become "fishers of men"; inspired by Our Lady of Buen Suceso who constantly loves and protects Christ\'s flock;
+called to be in solidarity with the poor, the underprivileged, and marginalized communities; and
+dedicated to the care and sustenance of creation.
+\n3. Religion as the Core of the Curriculum (RCC) in which the course of all learning programs and activities
+complement the body of knowledge of the Catholic Faith, upholding her values and beliefs as the wellspring of knowledge and truth; and
+serves as a paradigm of the student\'s growth in \"wisdom, knowledge, and grace\" before God and humanity.
+    )]]></string>
 
+    <string name="spiritualformation"><![CDATA[
+    Spiritual formation is the growth and development of the whole person by an intentional focus on one\'s spiritual and interior life, interactions with others in ordinary life and the spiritual practices (prayer, the study of scripture, fasting, simplicity, solitude, confession, worship, etc.).
+    \n\nIn Christian Spiritual Formation the focus is on Jesus and the approaches are the following: Bible Studies, Retreats/Recollection, Conferences, Community/church involvement through Corporate worship and Volunteer service, and Practice of spiritual disciplines (e.g. prayer, the study of scripture, fasting, simplicity, solitude, confession, worship, submission, service, others)
+    )]]></string>
+
+    <string name="pastoralministry"><![CDATA[
+    This component of the Center of Christian Formation is more commonly known as the \"outreach\" ministry program for it takes care of the Pastoral activities and formation of our community. It takes care of the outreach programs of both the students (under the academic pastoral program for students) and the employees (in coordination w/ the HR).
+    \n\nThe ministry echoes the message of St. James in his epistle when he said that \"Faith with out action is like a body with out a spirit…\"
+    \n\nThe ministry acts as an agent of change and a messenger of hope as it creates a venue for our students and other members of the community to immerse themselves with the poor and reflectively and collectively act for them.
+    \n\nThe different activities like Hapagkainan ni San Andres, Pondo ng Pinoy, Relief Operations for Typhoon /Calamity victims, Alternative Learning System-Basic Ecclesial Community (ALS-BEC) sessions, Teachers in Public Schools (as done for the past years), new exposure areas like Palanyag (Street Catechesis), Bilibid Exposure and more are all coordinated, handled & organized by the pastoral ministry program.
+    )]]></string>
+
+    <string name="title_activity_ministry">MinistryActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="history"><![CDATA[BRIEF HISTORY OF ST. ANDREW\'S SCHOOL
+    \n\nSt. Andrew\'s School was founded by Rev. Fr. Joseph Van Runckelen, a member of the Congregatio Immaculati Cordis Mariae (CICM), otherwise known as the Congregation of the Immaculate Heart of Mary. \"Pare Jose\", as he is commonly called, established the school on June 27, 1917. As a parish priest in 1915, he named the school after the parish patron saint, St. Andrew the Apostle (the patron of fishermen) from whom the Augustinian fathers dedicated the church on May 11, 1580 as aligned with the livelihood of the local residents. With the help of foreign donations from Belgium, the school was built offering primary and intermediate levels for boys and girls. The elementary school was first housed in the modest building located in front of the church. It was only in 1938 when it was transferred to the present site of the school.   In 1932, Fr. Van Runckelen expanded the school by founding the high school department. The new department started with 32 students (20 boys and 12 girls) and four years later in 1936, it was reduced to seven (four boys and three girls); moreover, the seven were the first high school graduates dubbed as "The Magnificent Seven”. During the succeeding years, St. Andrew\'s School continued to grow and improve its quality of instruction so that when the war broke out in 1941, it already enjoyed the reputation of being one of the best private secondary schools in the country.
+    \n\nSt. Andrew\'s School maintained its co-educational status until it was closed due to the outbreak of Second World War in 1941. It was opened in 1945 and became exclusively for boys. It started only with a first year class and had its post-war graduation four years later in 1949. Through the efforts of C.I.C.M. directors, gradual improvements were made from infrastructures to curriculum design which made graduates proud of their humble beginning. Such legacy was continued by diocesan directors which were started during the transition of parish and school\'s administration from religious to diocesan in 1994. Further transitions followed over the years namely; becoming co-educational status of the school in 1994, changing territorial canonical jurisdiction under the new Diocese of Parañaque, headed by Most Rev. Jesse E. Mercado D.D., new infrastructures based on the demands of the school community, new departments were initiated such as Pre-school, Alternative Learning System (ALS), Special Education (SPED) and Center for Integral Evangelization (CIE) departments and standardized curriculum aligned with the requirements of Department of Education. In keeping its vision, mission and core values, St. Andrew\'s School continuously received an award in 2006 for being the Most Outstanding Catholic School for Boys (Parañaque).
+    \n\nAs the oldest parochial school in Parañaque, St. Andrew\'s School has been known to deliver quality and relevant Catholic education heeding to the call of serving love and excellence through its curricular and co-curricular programs including outreach / community activities, pro Deo et Patria.]]></string>
+    <string name="title_activity_pastoral_ministry">PastoralMinistryActivity</string>
+    <string name="title_activity_spiritual_formation">SpiritualFormation</string>
+    <string name="spiritual_formation_intro"><![CDATA[
+    <font size="9" face="Verdana"><b>Spiritual formation</b>
+    <div> <p> my para </p> </div>
+    \n\nThis component of the Center of Christian Formation is more commonly known as the \"outreach\" ministry program for it takes care of the Pastoral activities and formation of our community. It takes care of the outreach
+    )]]></string>
+    <string name="title_activity_club">ClubActivity</string>
+    <string name="club_elementary"><![CDATA[
+        The student activity provides for the total development of the students through individual and group activities to meet their spiritual, intellectual, social, emotional, and physical needs.
+\n\nInitiative, leadership, creativity and reponsibility are encouraged under the supervision of the club moderators and subject teachers.
+\nPUPIL STUDENT GOVERNMENT
+\n\n
+This is the highest organization of the Grade School Department. Its officers are elected by the Gr.3 - 6 students. It acts as representative of the student body to the administration.
+\n
+\nBe an instrument in the implementation of the school projects and policies.
+\nInstill in the students the ideals of the school.
+\nDevelop right attitude in school matters so as to bring student involvement in school and community development.
+\nPRO-MATH CIRCLE
+\n
+\nPRO-MATH (Productive Math) CIRCLE is a circle of grade schoolers who are willing to live their school life productively in MATH. PRO-MATH will direct members to relate and apply Mathematics in their everyday life.
+\n
+\nTo promote productive Mathematics to the whole SAS community.
+\nTo enhance and strengthen one\'s mathematical foundation.
+\nTo help other non-members who have difficulty in Math by peer teaching.
+\nTo lead students to conclude that Math is fun and enjoyable.
+\nSTAR/GIRL/KAB/BOY SCOUTS
+\n
+\nBeing a part of the Scouting Movement opens many doors to adventures and freedom for the young and growing Filipino. With sincere dedication, the new scouts have a chance to live experiences useful to themselves and others, learn more about the world and gain insights into their own selves.
+\n
+\nShow love of God by respecting and taking care of his creations.
+\nParticipate in the activities that promote responsible citizenship and leadership.
+\nMake wise choices and decisions.
+\nPractice desirable social, cultural, moral, and spiritual values.
+\nShow love, respect and appreciation for one\'s family and persons of authority in the community and society.
+\nParticipate in various activities to promote value formation.
+\nEngage in hobbies and practical skills that will be beneficial in their growing up.
+\nJoin outdoors activities that develop physical fitness, skills for self-reliance and resourcefulness.
+\nCommunicate with other scouts to promote World Brotherhood.
+\nJoin interesting and meaningful activities that will satisfy their needs and nurture their capabilities for hiking, camping and other scouting activities.
+\nParticipate in nature conservation, environmental hygiene, and preservation of the natural resources of our country and other service projects.
+\nDRUM AND LYRE BAND
+\n
+\nIt has stimulated a great deal of interest in music. It brings participation of students and promotes a healthy relationship between the school and community. The students\' physical, social, emotional and intellectual development is well suited to this ensemble with its colorful uniform, marching, prominence in school and community, and its variety of activities. It has become an integral part of school life.
+\n
+\nDevelop musical talents and social awareness.
+\nServe the school and community through the participation in school and community activities.
+\nDevelop camaraderie among themselves, which in turn will create a friendly and harmonious relationship.
+\nEstablish good working skills so as to develop self-esteem and boost confidence among students.
+\nDANCE TROUPE
+\n
+\nIt is a club which provides activities that will develop the students\' dancing prowess as well as their self-confidence, spirit of camaraderie and cooperation.
+\n
+\nPromote cultural development through the art of dancing.
+\nServe the school and community through the participation in school and community activities.
+\nDevelop camaraderie among themselves, which in turn will create a friendly and harmonious relationship.
+\nEstablish good working skills so as to develop self-esteem and boost confidence among students.
+    ]]></string>
+    <string name="title_activity_school_id">SchoolIDActivity</string>
+    <string name="school_id"><![CDATA[
+        RULES and REGULATION of IDENTIFICATION CARD (ID)
+\n
+\nThe school observes the "No ID, No Entry” policy. (The School Security Guard will not allow any pupil/student to enter the school premises without an I.D.)
+\n
+\nA student should wear his/her ID card properly inside the campus and during off-campus activities. It should be worn inside the school campus at all times, up to the signing of clearance at the end of the school year.
+\nTampering of ID should be avoided. No stickers should be attached to it and must be worn solely. It should not be tampered with, decorated or altered in any way.
+\nOfficial ID lanyards or necklaces are provided with the ID card and ID case. Students are not allowed to wear any other type of ID lanyard except the official one issued by the school.
+\nThe ID card is NON-TRANSFERABLE. (Borrowing or lending of ID card is an offense: it should not be lent or borrowed, or used for another school year.)
+\nThe ID (MIFARE Card: an electronic chip card) is very sensitive to extreme cold and hot conditions. Bending, cutting or making a hole to the ID card is strictly prohibited.
+\nIf a student loses or damages the ID beyond repair, he/she must report this at once to the Prefect of Students and apply for a replacement ID. A minimal fee is charged for the replacement ID. The student is issued a "temporary” ID while the request for a new ID is being processed at the MIS Office.
+\nTo secure a New Replaced ID:
+\nPay a processing fee to the Cashier;
+\nPresent the receipt to the MIS Office (expect 1 working day before the release of the ID);
+\nClaim your new replaced ID to the MIS Office and present your temporary ID.
+]]></string>
+    <string name="handbook"><![CDATA[
+    The Handbook for Students is designed to orient you to the rich academic and social world of St. Andrew\'s School. It is meant to be a kind of user\'s manual for the Integrated Basic Education Department. In it you will find information on the options available to you and the resources that can help you find advice and make good choices. We believe your undergraduate experience will be more enjoyable and rewarding if you take the time to read through this booklet.
+    \n\nThe Handbook can be your guide to academic requirements, our residential system, and the many activities that take place outside the classroom. Importantly, it clarifies the standards we hold and that we expect of you in your conduct as a student. These academic and disciplinary rules that apply to everyone in our SAS community.
+    ]]></string>
+    <string name="venue_registration"><![CDATA[ICT Classroom and Multimedia Room
+\nSt. Andrew\'s School ICT Classroom is a fully air-conditioned room used for quality education learning and for other functions. The school\'s policy is to use and develop the opportunities provided by ICT to benefit the entire school community. A policy of integrating ICT into teaching and learning across the curriculum has been reflected in the provision of a PC and digital projector in some classrooms and also by providing teachers with ICT access outside the main ICT rooms and classrooms. Teachers have also been provided secure network access for personal laptops. This access is maintained by the MIS. The ICT Room is equipped with the state of the art LED projectors and built-in Multimedia speakers with wireless microphones for the pleasure of watching movies, powerpoint presentations or audio-visual presentations (AVP).
+\n
+\nInteractive Whiteboards and computers are provided in the Multimedia Room and Preschool Rooms as we recognise the potential of ICT to enhance the learning opportunities for pupils. Children with specific writing, reading and numeracy needs are using ICT to provide alternative and complementary educational experiences.
+\n
+\nICT Classroom and Multimedia Room Use Rules and Responsibilities:
+The ICT Classroom and Multimedia Room are primarily intended to serve the needs of teachers and students to facilitate learning and educational purposes only.
+Other sector / groups may also avail of the facilities and services provided the written reservation is approved by the Administrative Services Head and/or the Property Custodian and must be received by the MIS for any equipment needed. The reservee will be liable for the material of the event. Charges will be imposed for the venue and the material needed for the event.
+Cleanliness is next to Godliness. Student should always share the responsibility of keeping the room neat and orderly.
+All taped items and tape must be completely removed at the conclusion of the event.
+Chalkboard / Whiteboards and erasers should always be cleaned before and after classes.
+Be responsible in proper setup, and storage of any equipment used and for classroom cleanup. Any equipment that has been moved or altered must be returned to its initial state at the conclusion of the event.
+Take good care of windows, lockers, chairs, teacher\'s table, computers, LED projectors, Audio and Video Outlet, Multimedia speakers and Interactive WhiteBoards.
+Tampering with the bulletin boards and pictures displayed in the ICT classroom is strictly prohibited.
+Talking and roaming around should be minimized during video presentation or at the start of the class.
+ICT Classroom and Multimedia Room use is scheduled on the \"FIRST come, FIRST serve\" basis. The flow of the Reservation must be followed at all times. 
+1) Request for its use should be three (3) days before the actual program and written down in the Venue Reservation Form without any conflict. 
+2) It must be noted and notified by the Immediate Superior. 
+3) Approved by the Administrative Services Head and/or the Property Custodian.
+4) Received and must be communicated to the MIS Head (equipments / sound system if needed), General Services (tables, chairs, water-dispensers, etc.) and Security Personnel (acu and door key) with attached floor plans and program flow invitation. 
+Application forms are available at the Principal\'s Office, Administrative Services Office and the MIS Office.
+Teachers should preview materials they intend to use and evaluate its relevance and appropriateness to the subject matter.
+Teachers concern should be present at all times during the scheduled viewing of the classes. They are directly responsible for the behavior of their students.
+In case of damages, the concerned person/persons should pay for the cost of repair or replacement of the damage material and must notify the Property Custodian or the MIS immediately.
+\nAudio-Visual Room (AVR)
+\n
+\nSt. Andrew\'s School AUDIO-VISUAL ROOM (SAS-AVR) is a 130 seats, fully air-conditioned auditorium primarily used for meetings, seminars, also for watching movies and for other functions. The Audio-Visual Room is equipped with the state of the art Bose\'s own \"Acoustic Wave Guide Technology\" to accurately reproduce bass while maintaining such a low profile for the pleasure of watching movies or audio-visual presentations (AVP).
+\n
+\nGuidelines on the Use of the Audio Visual Room (AVR):
+The AVR facilities and services are primarily intended to serve the needs of teachers and students to facilitate learning.
+Other sector / groups may also avail of the facilities and services provided the written reservation is approved by the Administrative Services Head and/or the Property Custodian and must be received by the MIS for any equipment needed. The reservee will be liable for the material of the event. Charges will be imposed for the venue and the material needed for the event.
+The AVR should be kept clean at all times.
+Placing any letters or drawing materials on the viewing stage and walls are strictly prohibited. Kindly close the viewing stage backdrop if we need to place something on it.
+All taped items and tape must be completely removed at the conclusion of the event.
+Eating and smoking are strictly prohibited.
+Be responsible in proper setup, and storage of any equipment used and for classroom cleanup. Any equipment that has been moved or altered must be returned to its initial state at the conclusion of the event.
+Talking and roaming around should be minimized during video presentation or at the start of the program.
+AVR use is scheduled on the \"FIRST come, FIRST serve\" basis. The flow of the Reservation must be followed at all times.
+1) Request for its use should be three (3) days before the actual program and written down in the Venue Reservation Form without any conflict. 
+2) It must be noted and notified by the Immediate Superior. 
+3) Approved by the Administrative Services Head and/or the Property Custodian. 
+4) Received and must be communicated to the MIS Head (equipments / sound system if needed), General Services (tables, chairs, water-dispensers, etc.) and Security Personnel (acu and door key) with attached floor plans and program flow invitation. Application forms are available at the Principal\'s Office, Administrative Services Office and the MIS Office.
+Teachers should preview materials they intend to use and evaluate its relevance and appropriateness to the subject matter.
+Teachers concern should be present at all times during the scheduled viewing of the classes. They are directly responsible for the behavior of their students in the AVR.
+In case of damages, the concerned person/persons should pay for the cost of repair or replacement of the damage material and must notify the Property Custodian or the MIS immediately.
+\nGymnasium
+\n
+\nThe Gym is designated primarily as an athletic/physical fitness facility. As such, the majority of usage during the School year will be by the St. Andrew\'s School Physical Education and other Sports Programs. In addition, however, it is the desire of the Administration to promote other usage of this great facility. 
+This policy regulates gymnasium usage.
+\n
+\nOverall supervision of the Gymnasium is the responsibility of the School Administrator. Except for the regularly scheduled School Physical Education Program, anyone wishing to use the Gymnasium is required to submit a \"VENUE RESERVATION\” form. This form is completed and signed by the supervising the event. The form must have the authorizing signature of the St. Andrew\'s School Administrative Services Head, or the Property Custodian. The Administrative Services Head must approve the form. It is then given and communicated to the MIS Office, General Services and Security Personnel with the attached floor plan and program flow invitation.
+\n
+\nIt is our hope that everyone granted use of the gymnasium will take personal ownership for its care and in the enforcement of the rules and regulations.
+\n
+\nGymnasium Use Rules and Responsibilities:
+\nThe school will have priority gym use during Academic Year, Mondays through Fridays, between the hours of 7:30 AM and 5:00 PM. The school PE staff has supervisory responsibility for gym use during school hours.
+Other gym usage hours must be scheduled with the Administrative Services office by submitting a completed Request for Venue Reservation Form. Gym use shall not be granted during higher priority School Events, or scheduled gym maintenance.
+Children or students in the gym must be supervised by an adult or teacher-in-charge at all times.
+No liquids other than water are allowed in the gym. Only bottled water is permitted during athletic events for use by the participants.
+Gym court users must wear appropriate, clean, gym shoes before entering the court.
+The request-in-charge is responsible for proper setup, and storage of any equipment used and for gym cleanup. Any equipment that has been moved or altered must be returned to its initial state at the conclusion of the event.
+(All basketball goals to playing position, bleachers must be cleaned, all equipment stowed, lights off, all doors locked.)
+Gym court users must wear appropriate, clean, gym shoes before entering the court.
+Placing any letters or drawing materials on the stage walls and gym walls are strictly prohibited. Gym users must use only painter\'s masking tape to affix anything to the gym walls or floor.
+All taped items and tape must be completely removed at the conclusion of the event.
+Eating, gum chewing & smoking are strictly prohibited.
+Talking and roaming around should be minimized during video presentation or at the start of the program.
+Gym use is scheduled on the \"FIRST come, FIRST serve\" basis. The flow of the Reservation must be followed at all times.
+Groups using the Gym accept financial responsibility for any damage caused as a direct result of their use of the Gym.
+Teachers concern should be present at all times during the scheduled reservation of the class. They are directly responsible for the behavior of their students in the Gymnasium.
+All equipment malfunctions or damage must be reported immediately to the Property Custodian Office and or the Administrative Services Office.
+School Canteen and Quadrangle Area
+\n
+\nThe School Canteen applies to food services within the school environment, for example school events such as celebrations, programs, activities and sports days, vending machines and foods used in curriculum activities. The Quadrangle Area is designated as an athletic/physical fitness area or ground area. This policy regulates canteen and quadrangle usage.
+\n
+\nOverall supervision of the Canteen and Quadrangle Area are the responsibility of the School Administrator and the Business Development Supervisor. Except for the regularly scheduled School Physical Education Program (Quadrangle Use only), anyone wishes to use the Canteen and Quadrangle Area are required to submit a \"VENUE RESERVATION\" form.
+This form is completed and signed by the supervising the event. The form must have the authorizing signature of the St. Andrew\'s School Administrative Services Head, or the Property Custodian. The Administrative Services Head must approve the form. It is then given and communicated to the MIS Office, General Services and Security Personnel with the attached floor plan and program flow invitation.
+    ]]></string>
+    <string name="title_activity_handbook">HandbookActivity</string>
+    <string name="title_activity_venue_reg">VenueRegActivity</string>
+    <string name="title_activity_notification_activities">NotificationActivities</string>
 </resources>

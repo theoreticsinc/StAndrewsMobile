@@ -21,7 +21,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_marginLeft="3dp"
-            android:id="@+id/imageView5"
+            android:id="@+id/homeButton"
             android:src="@drawable/home"
             android:layout_weight="1"
             android:minHeight="50dp"
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:id="@+id/imageView6"
+            android:id="@+id/aboutButton"
             android:src="@drawable/about"
             android:layout_weight="1"
             android:minHeight="50dp"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:id="@+id/imageView7"
+            android:id="@+id/sasButton"
             android:src="@drawable/sas_life"
             android:layout_weight="1"
             android:minHeight="50dp"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:id="@+id/imageView8"
+            android:id="@+id/ministryButton"
             android:src="@drawable/ministry1"
             android:layout_weight="1"
             android:minHeight="50dp"
@@ -93,7 +93,8 @@
         <HorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/mainScrollView">
+            android:id="@+id/mainScrollView"
+            android:scrollIndicators="none">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -101,20 +102,20 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/clubButton"
-                    android:src="@drawable/philosophy"
+                    android:src="@drawable/homebanner"
                     android:adjustViewBounds="true"
                     android:scaleType="fitXY" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView3"
+                    android:id="@+id/philoButton"
                     android:scaleType="fitXY"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/philosophy" />
+                    android:src="@drawable/philosophy_button" />
             </LinearLayout>
         </HorizontalScrollView>
 
@@ -177,25 +178,22 @@
             android:paddingLeft="5dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mission"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/mission_statement"
                 android:id="@+id/ms"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:textColor="@color/white"
-                android:gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal"
                 android:background="@color/andrean_orange"
                 android:layout_gravity="center_horizontal"
                 android:ellipsize="end"
-                android:typeface="sans"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp" />
+                android:typeface="sans" />
 
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/history"
+                android:id="@+id/historyButton"
                 android:src="@drawable/history"
                 android:scaleType="centerCrop"
                 android:adjustViewBounds="true"

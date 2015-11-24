@@ -14,8 +14,12 @@
     <item name="darkorange" type="color">#FFFF8800</item>
     <item name="darkred" type="color">#FFCC0000</item>
     <item name="black" type="color">#DD000000</item>
+
     <item name="andrean_red" type="color">#FFEC253A</item>
     <item name="andrean_orange" type="color">#FFFFAE39</item>
+    <item name="andrean_blue" type="color">#FF426AE2</item>
+    <item name="andrean_green" type="color">#FF99AD26</item>
+
 
 
     <integer-array name="androidcolors">

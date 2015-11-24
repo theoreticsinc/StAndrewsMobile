@@ -4,8 +4,10 @@ import com.theoreticsinc.standrewsmobile.R;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Color;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -19,9 +21,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
+import com.google.android.gms.ads.AdView;
 
 public class AboutActivity extends Activity {
 
@@ -36,7 +37,7 @@ public class AboutActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.aboutus);
+		setContentView(R.layout.activity_aboutus);
 
 		DisplayMetrics displayMetrics = new DisplayMetrics();
 		WindowManager wm = (WindowManager) getApplicationContext().getSystemService(Context.WINDOW_SERVICE); // the results will be higher than using the activity context object or the getWindowManager() shortcut
@@ -61,7 +62,6 @@ public class AboutActivity extends Activity {
 					click = true;
 				}
 			}
-
 		});
 		TextView vs1 = (TextView) findViewById(R.id.vs1);
 		vs1.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +76,6 @@ public class AboutActivity extends Activity {
 					click = true;
 				}
 			}
-
 		});
 		TextView ms = (TextView) findViewById(R.id.ms);
 		ms.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +90,6 @@ public class AboutActivity extends Activity {
 					click = true;
 				}
 			}
-
 		});
 		/*
 		params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
@@ -112,6 +110,7 @@ public class AboutActivity extends Activity {
 			}
 		});
 		popUp.setContentView(layout);
+
 		View layout2 = layoutInflater.inflate(R.layout.missionstatement, null);
 		ImageView back2 = (ImageView) layout2.findViewById(R.id.backButton);
 		back2.setOnClickListener(new View.OnClickListener() {
@@ -123,14 +122,65 @@ public class AboutActivity extends Activity {
 		popUp2.setContentView(layout2);
 
 		final HorizontalScrollView mainScrollView = (HorizontalScrollView) findViewById(R.id.mainScrollView);
-		mainScrollView.smoothScrollTo(0,0);
+		mainScrollView.smoothScrollTo(0, 0);
 		ImageView clubButton = (ImageView) findViewById(R.id.clubButton);
-		//clubButton.getLayoutParams().width = w;
+		clubButton.getLayoutParams().width = w - 5;
 		clubButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				System.out.println("Club Clicked" + w);
 				mainScrollView.smoothScrollTo(1000, 0);
+			}
+		});
+
+		ImageView philoButton = (ImageView) findViewById(R.id.philoButton);
+		//clubButton.getLayoutParams().width = w;
+		philoButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(), PhilosophyActivity.class);
+				startActivity(i);
+				//finish();
+			}
+		});
+
+		ImageView historyButton = (ImageView) findViewById(R.id.historyButton);
+		historyButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(), HistoryActivity.class);
+				startActivity(i);
+				//finish();
+			}
+		});
+
+		ImageView homeButton = (ImageView) findViewById(R.id.homeButton);
+		homeButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(), MainActivity.class);
+				startActivity(i);
+				finish();
+			}
+		});
+
+		ImageView ministryButton = (ImageView) findViewById(R.id.ministryButton);
+		ministryButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(), MinistryActivity.class);
+				startActivity(i);
+				finish();
+			}
+		});
+
+		ImageView sasButton = (ImageView) findViewById(R.id.sasButton);
+		sasButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(), SASLifeActivity.class);
+				startActivity(i);
+				finish();
 			}
 		});
 	}
@@ -152,5 +202,20 @@ public class AboutActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public void onBackPressed() {
+		new AlertDialog.Builder(this)
+				.setTitle("Really Exit?")
+				.setMessage("Are you sure you want to exit?")
+				.setNegativeButton(android.R.string.no, null)
+				.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+
+					public void onClick(DialogInterface arg0, int arg1) {
+						//DashboardActivity.super.onBackPressed();
+						finish();
+					}
+				}).create().show();
 	}
 }

@@ -1,8 +1,8 @@
 package com.theoreticsinc.standrewsmobile.activities;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,13 +10,12 @@ import android.widget.ImageView;
 
 import com.theoreticsinc.standrewsmobile.R;
 
-public class PhilosophyActivity extends AppCompatActivity {
+public class ClubActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_philosophy);
-
+        setContentView(R.layout.activity_club);
         ImageView backButton = (ImageView) findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

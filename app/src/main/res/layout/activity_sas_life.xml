@@ -25,7 +25,8 @@
             android:minHeight="50dp"
             android:minWidth="50dp"
             android:maxWidth="75dp"
-            android:maxHeight="75dp" />
+            android:maxHeight="75dp"
+            android:id="@+id/homeButton" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -40,14 +41,15 @@
             android:maxHeight="75dp"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/btn1"
-            android:layout_toEndOf="@+id/btn1" />
+            android:layout_toEndOf="@+id/btn1"
+            android:id="@+id/aboutButton" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:id="@+id/imageView11"
+            android:id="@+id/sasButton"
             android:src="@drawable/sas_life"
             android:layout_weight="1"
             android:minHeight="50dp"
@@ -63,7 +65,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:id="@+id/imageView12"
+            android:id="@+id/ministryButton"
             android:src="@drawable/ministry1"
             android:layout_weight="1"
             android:minHeight="50dp"
@@ -81,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearlayout1"
         android:id="@+id/linearLayout2"
-        android:layout_weight="20"
+        android:layout_weight="35"
         android:paddingTop="5dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp">
@@ -97,7 +99,7 @@
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView13"
+                android:id="@+id/handbookButton"
                 android:src="@drawable/handbook"
                 android:layout_weight="1"
                 android:paddingTop="5dp"
@@ -107,7 +109,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView15"
+                android:id="@+id/schoolIDButton"
                 android:layout_weight="1"
                 android:src="@drawable/school_id"
                 android:paddingTop="5dp"
@@ -116,7 +118,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView14"
+                android:id="@+id/venueRegButton"
                 android:src="@drawable/venue_reservation"
                 android:layout_weight="1"
                 android:paddingTop="5dp"
@@ -136,10 +138,10 @@
             <TextView
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/SASHymn"
-                android:id="@+id/textView5"
+                android:id="@+id/hymn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="2"
+                android:layout_weight="3"
                 android:background="@color/andrean_red"
                 android:textColor="@color/white"
                 android:gravity="center_vertical|center_horizontal"
@@ -147,17 +149,26 @@
                 android:textStyle="bold"
                 android:layout_gravity="center" />
 
-            <TextView
+            <ScrollView
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:text="@string/hymn"
-                android:id="@+id/textView3"
-                android:layout_weight="1"
-                android:background="@color/andrean_red"
-                android:textColor="@color/white"
-                android:gravity="center_horizontal"
-                android:padding="10dp"
-                android:ellipsize="marquee" />
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/hymn"
+                    android:id="@+id/hymn1"
+                    android:layout_weight="1"
+                    android:background="@color/andrean_red"
+                    android:textColor="@color/white"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:ellipsize="marquee"
+                    android:textSize="10dp" />
+            </ScrollView>
+
         </LinearLayout>
     </LinearLayout>
     <!--com.google.android.gms.ads.AdView
@@ -181,7 +192,7 @@
         android:paddingTop="5dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:layout_weight="15">
+        android:layout_weight="10">
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -204,10 +215,10 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView3"
+                    android:id="@+id/sasClubButton"
                     android:scaleType="fitXY"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/philosophy" />
+                    android:src="@drawable/sas_club_button" />
             </LinearLayout>
         </HorizontalScrollView>
 

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_us_bg">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/homeButton"
+            android:src="@drawable/home"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/aboutButton"
+            android:src="@drawable/about"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn1"
+            android:layout_toEndOf="@+id/btn1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/sasButton"
+            android:src="@drawable/sas_life"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn2"
+            android:layout_toEndOf="@+id/btn2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/ministryButton"
+            android:src="@drawable/ministry1"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn3"
+            android:layout_toEndOf="@+id/btn3" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pastoralButton"
+            android:src="@drawable/pastoralbutton"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiritualButton"
+            android:src="@drawable/spiritual_button"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>

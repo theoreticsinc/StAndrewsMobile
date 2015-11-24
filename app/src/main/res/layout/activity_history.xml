@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="com.theoreticsinc.standrewsmobile.activities.PhilosophyActivity"
     android:orientation="vertical"
-    android:background="@color/andrean_blue">
+    android:background="@color/andrean_red">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -14,7 +14,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageView5"
-            android:src="@drawable/philosophy"
+            android:src="@drawable/sashistory"
             android:layout_weight="1"
             android:scaleType="fitXY" />
 
@@ -30,14 +30,21 @@
             android:paddingLeft="5dp" />
     </RelativeLayout>
 
-    <TextView
-        android:text="@string/philosophy"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:padding="10dp"
-        android:textColor="@color/white"
-        android:scrollIndicators="right"
-        android:nestedScrollingEnabled="true" />
+        android:id="@+id/scrollView5"
+        android:layout_weight="1" >
+
+        <TextView
+            android:text="@string/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:scrollIndicators="right"
+            android:nestedScrollingEnabled="true" />
+    </ScrollView>
 
 </LinearLayout>

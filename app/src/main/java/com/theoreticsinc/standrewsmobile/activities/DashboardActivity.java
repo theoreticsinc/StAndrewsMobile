@@ -51,7 +51,7 @@ public class DashboardActivity extends Activity implements PopupMenu.OnMenuItemC
                 else if (currentapiVersion >= 10) {
                     PopupMenu popupMenu = new PopupMenu(DashboardActivity.this, v);
                     popupMenu.setOnMenuItemClickListener(DashboardActivity.this);
-                    popupMenu.inflate(R.menu.menu_main);
+                    popupMenu.inflate(R.menu.menu_details);
                     popupMenu.show();
                 }
             }
@@ -159,7 +159,7 @@ public class DashboardActivity extends Activity implements PopupMenu.OnMenuItemC
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_details, menu);
         return true;
     }
 

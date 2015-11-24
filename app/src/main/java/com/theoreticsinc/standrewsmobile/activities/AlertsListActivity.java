@@ -137,7 +137,7 @@ public class AlertsListActivity extends Activity implements PopupMenu.OnMenuItem
                 } else if (currentapiVersion >= 10) {
                     PopupMenu popupMenu = new PopupMenu(AlertsListActivity.this, v);
                     popupMenu.setOnMenuItemClickListener(AlertsListActivity.this);
-                    popupMenu.inflate(R.menu.menu_main);
+                    popupMenu.inflate(R.menu.menu_details);
                     popupMenu.show();
                 }
             }
@@ -183,7 +183,7 @@ public class AlertsListActivity extends Activity implements PopupMenu.OnMenuItem
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_details, menu);
         return true;
     }
 

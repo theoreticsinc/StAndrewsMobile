@@ -192,7 +192,7 @@ public class AlertsListFragment extends Fragment {
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 		// Do something that differs the Activity's menu here
-		inflater.inflate(R.menu.alerts_menu, menu);
+		inflater.inflate(R.menu.menu_details, menu);
 		//menu.findItem(R.id.action_refresh).setVisible(true);
 		super.onCreateOptionsMenu(menu, inflater);
 	}
